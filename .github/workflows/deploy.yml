@@ -11,6 +11,10 @@ on:
     branches:
       - 'main'
 
+permissions:
+  contents: write
+  packages: write
+
 env:
   IMAGE_NAME: p-14565-1 # 이미지 이름 설정
 
